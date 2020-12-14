@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-<title>Mostudio - Free Bootstrap 4 Template by Colorlib</title>
+<title>pulpfiction</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="css/magnific-popup.css">
 <link rel="stylesheet" href="css/flaticon.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" media="all" onload="if(media!='all')media='all'" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
 </head>
 <body >
 
@@ -32,7 +33,7 @@
 	<li class="colorlib-active"><a href="index.html">Home</a></li>
 	<li><a href="#gallery">Gallery</a></li>
 	<li><a href="#about">About</a></li>
-	<li><a href="pricing.html">Pricing</a></li>
+	<li><a href="#merchandise">Merchandise</a></li>
 	<li><a href="#contactus">Contact</a></li>
 	</ul>
 	</nav>
@@ -66,20 +67,29 @@
 
 <!-- home section start -->
 
-<section id="home">
+<section id="home ">
 
-<div class="row no-gutters align-items-center">
-<a  class="col-md-6 img  js-fullheight d-flex align-items-center justify-content-center" style="background-image: url(collections/cover.jpg);">
+<div class="row no-gutters align-items-center js-fullheight">
+<!-- <a  class="col-md-6 img   d-flex align-items-center justify-content-center" style="background-image: url(collections/cover.jpg);">
 	<div class="output mt-auto" style="background-color: rgba(0, 0, 0, 0.64); width: 100%; height: 80px;" id="output">
 		<h6 class="cursor" style="color: #ededed;"></h6>
 		<p></p>
 	  </div>
 
-</a>
-
+</a> -->
+<div class="col-md-6">
+<img src="collections/cover.jpg" class="img-fluid" alt="Responsive image">
+<div class="output mt-auto" style="background-color: rgba(0, 0, 0, 0.64); width: 100%; height: 80px; position: absolute;
+top: 92%;
+left: 50%;
+transform: translate(-50%, -50%);" id="output">
+	<h6 class="cursor" style="color: #ededed;"></h6>
+	<p></p>
+  </div>
+</div>
 
 <div class="col-md-6 portfolio-wrap">
-	<div class="text pt-5 pl-0 px-lg-5 pl-md-4 ftco-animate">
+	<div class="text pt-5 pl-0 px-lg-5 pl-md-4 " data-aos-duration="1000" data-aos="slide-up">
 	<div class="px-4 px-lg-4">
 	<div class="desc">
 	<div class="top">
@@ -104,34 +114,31 @@
 <section id="gallery">
 	<div class="row d-flex">
 		<div class="col-md-12">
-	   <div class="btn-custom-load d-block w-100 text-center mt-2 py-2"><h1 style="font-weight: bold; font-size: x-large; color: black;">GALLERY</h1> </div>
+	   <div class="btn-custom-load d-block w-100 text-center mt-2 py-2" data-aos-duration="600" data-aos="slide-right"><h1 style="font-weight: bold; font-size: x-large; color: black;">GALLERY</h1> </div>
 	   </div>
 	   </div>
 
 
 	   <div class="col-md-12 portfolio-wrap">
 		<div class="row no-gutters align-items-center">
-		<a href="images/work-2.jpg" class="col-md-6 order-md-last img image-popup js-fullheight d-flex align-items-center justify-content-center" style="background-image: url(images/work-2.jpg);">
+		<!-- <a href="images/work-2.jpg" class="col-md-6 order-md-last img  js-fullheight d-flex align-items-center justify-content-center" style="background-image: url(images/work-2.jpg);">
 		<div class="icon d-flex align-items-center justify-content-center">
 		<span class="fa fa-expand"></span>
 		</div>
-		</a>
-		<div class="col-md-6">
-		<div class="text pt-5 px-md-5 ftco-animate">
-		<div class="px-4 px-lg-4">
-		<div class="desc text-md-right">
-		<div class="top">
-		<span class="subheading">Nature</span>
-		<h2 class="mb-4"><a href="gallery.html">Green Leaves</a></h2>
+		</a> -->
+		<div class="row ">
+		<div class="col-md-3 p-3 col-6"><img href="/collections/Fafa_09-18-11.22.14.png" src="/collections/Fafa_09-18-11.22.14.png" class="img-fluid image-popup rounded"  alt=""  data-aos-duration="600" data-aos="slide-right"></div>
+		<div class="col-md-3 p-3 col-6"><img href="/collections/Bilal_10-28-11.48.51.png" src="/collections/Bilal_10-28-11.48.51.png" class="img-fluid image-popup rounded"  alt="" data-aos-duration="600" data-aos="slide-up"></div>
+		<div class="col-md-3 p-3 col-6"><img href="/collections/Rajavinte_10-22-04.42.35.png" src="/collections/Rajavinte_10-22-04.42.35.png" class="img-fluid image-popup rounded"  alt="" data-aos-duration="600" data-aos="slide-up"></div>
+		<div class="col-md-3 p-3 col-6"><img href="/collections/Kamalpulp-07-09.32.22.png" src="/collections/Kamalpulp-07-09.32.22.png" class="img-fluid image-popup rounded"  alt="" data-aos-duration="600" data-aos="slide-left"></div>
+		<div class="col-md-3 p-3 col-6"><img href="/collections/Chekuthan_09-19-07.31.28.png" src="/collections/Chekuthan_09-19-07.31.28.png" class="img-fluid image-popup rounded"  alt=""  data-aos-duration="600" data-aos="slide-right"></div>
+		<div class="col-md-3 p-3 col-6"><img href="/collections/clara.png" src="/collections/clara.png" class="img-fluid image-popup rounded"  alt="" data-aos-duration="600" data-aos="slide-up"></div>
+		<div class="col-md-3 p-3 col-6"><img href="/collections/dicaprio.jpg" src="/collections/dicaprio.jpg" class="img-fluid image-popup rounded"  alt="" data-aos-duration="600" data-aos="slide-up"></div>
+		<div class="col-md-3 p-3 col-6"><img href="/collections/Padmarajan_08-21-04.23.27.jpg" src="/collections/Padmarajan_08-21-04.23.27.jpg" class="img-fluid image-popup rounded"  alt="" data-aos-duration="600" data-aos="slide-left"></div>
+		
 		</div>
-		<div class="absolute">
-		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-		</div>
-		<p><a href="single.html" class="custom-btn">View Portfolio</a></p>
-		</div>
-		</div>
-		</div>
-		</div>
+		
+	
 		</div>
 		</div>
 
@@ -145,17 +152,17 @@
 <section id="about">
 	<div class="row d-flex">
 		<div class="col-md-12">
-	   <div class="btn-custom-load d-block w-100 text-center mt-2 py-2"><h1 style="font-weight: bold; font-size: x-large; color: black;">ABOUT US</h1> </div>
+	   <div class="btn-custom-load d-block w-100 text-center mt-2 py-2" data-aos-duration="600" data-aos="slide-left"><h1 style="font-weight: bold; font-size: x-large; color: black;"  >ABOUT US</h1> </div>
 	   </div>
 	   </div>
 		<div class="col-12 d-flex align-items-center ftco-about img ftco-section ftco-no-pt ftco-no-pb mt-3">
 			
-			<div class="text px-4 pt-5 pt-md-0 px-md-4 pr-md-5 ftco-animate fadeInUp ftco-animated">
-			<h2 class="mb-4">Hello! we are <span>pulpfiction</span> </h2>
-			<p>Pulp Fiction is a small Editing start-up based in Kerala. Our passion is to make Film Posters, Character posters, Video editing etc easier and more affordable. We created in that spirit. It offers a catalog of Designs and ideas you can fully and easily Fulfill your dream. <br> <br>
+			<div class="text px-4 pt-5 pt-md-0 px-md-4 pr-md-5 ">
+			<h2 class="mb-4" data-aos-duration="1000" data-aos="slide-up">Hello! we are <span>pulpfiction</span> </h2>
+			<p data-aos-duration="600" data-aos="slide-up">Pulp Fiction is a small Editing start-up based in Kerala. Our passion is to make Film Posters, Character posters, Video editing etc easier and more affordable. We created in that spirit. It offers a catalog of Designs and ideas you can fully and easily Fulfill your dream. <br> <br>
 
 				We built our Instagram page in 2020 and we were the first website in Kerala offering this kind of online service. Since then, we are working hard to improve our tool to offer you custom designs  so that you can save time on design and creating posters </p>
-			<div class="team-wrap row mt-4">
+			<div class="team-wrap row mt-4" data-aos-duration="1000" data-aos="slide-up">
 			<div class="col-md-4 team mt-5 col-6">
 			<div class="img" style="background-image: url(images/Athul.jpg);"></div>
 			<h3>Athul AP</h3>
@@ -187,15 +194,53 @@
 
 </section>
  <!-- about end -->
+
+<section id="merchandise">
+	<div class="row d-flex">
+		<div class="col-md-12">
+	   <div class="btn-custom-load d-block w-100 text-center mt-2 py-2" data-aos-duration="600" data-aos="slide-right"><h1 style="font-weight: bold; font-size: x-large; color: black;">MERCHANDISE</h1> </div>
+	   </div>
+	   </div>
+
+
+	   <div class="col-md-12 portfolio-wrap">
+		<div class="row no-gutters align-items-center">
+		<a href="images/work-2.jpg" class="col-md-6 order-md-last img  js-fullheight d-flex align-items-center justify-content-center" style="background-image: url(images/work-2.jpg);">
+		<div class="icon d-flex align-items-center justify-content-center">
+		<span class="fa fa-expand"></span>
+		</div>
+		</a>
+		<div class="col-md-6">
+		<div class="text pt-5 px-md-5 ftco-animate">
+		<div class="px-4 px-lg-4">
+		<div class="desc text-md-right">
+		<div class="top">
+		<span class="subheading">Nature</span>
+		<h2 class="mb-4"><a href="gallery.html">Green Leaves</a></h2>
+		</div>
+		<div class="absolute">
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+		</div>
+		<p><a href="single.html" class="custom-btn">View Portfolio</a></p>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+
+</section>
+
+ <!-- contact us -->
  <section id="contactus">
 
 	<div class="row d-flex">
 		<div class="col-md-12">
-	   <div class="btn-custom-load d-block w-100 text-center mt-2 py-2"><h1 style="font-weight: bold; font-size: x-large; color: black;">CONTACT US</h1> </div>
+	   <div class="btn-custom-load d-block w-100 text-center mt-2 py-2" data-aos-duration="600" data-aos="slide-left"><h1 style="font-weight: bold; font-size: x-large; color: black;">CONTACT US</h1> </div>
 	   </div>
 	   </div>
 
-	   <div class="container px-md-0">
+	   <div class="container px-md-0" data-aos-duration="600" data-aos="slide-up">
 		<div class="row d-flex no-gutters">
 		<div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
 		<div class="contact-wrap w-100 p-md-5 p-4">
@@ -279,6 +324,8 @@
 		</div>   
 
  </section>
+
+
  <!-- contact us -->
 
 
@@ -341,7 +388,7 @@
 
         $('html, body').animate({
           scrollTop: scrollto
-        }, 1000, 'easeInOutExpo');
+        }, 800, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu, .mobile-nav').length) {
           $('.nav-menu .active, .mobile-nav .active').removeClass('colorlib-active');
@@ -387,8 +434,13 @@
 
 })(jQuery);
 </script>
+<script>
 
+$(document).ready(function(){AOS.init();$('[data-bs-hover-animate]').mouseenter(function(){var elem=$(this);elem.addClass('infront animated '+elem.attr('data-bs-hover-animate'))}).mouseleave(function(){var elem=$(this);elem.removeClass('infront animated '+elem.attr('data-bs-hover-animate'))});});
 
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 
 </body>
 </html>
