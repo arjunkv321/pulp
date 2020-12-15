@@ -1,0 +1,25 @@
+.typewriter {
+    font-family: sans-serif;
+    color: #fff;
+    padding-left: 30px;
+    display: block;
+  }
+  .typewriter-text {
+    padding-right: 10px;
+    color: #ffe509;
+    border-right: solid #ffe509 7px;
+    text-transform: uppercase;
+    animation: cursor 1s ease-in-out infinite;
+    font-weight: bold;
+  }
+  @keyframes cursor {
+    from { border-color: #ffe509; }
+    to { border-color: transparent; }
+  }
+  
+  @media (max-width: 767.98px) {
+    .typewriter { font-size: 35px; }
+  }
+  @media (min-width: 768px) {
+    .typewriter { font-size: 60px; }
+  }
