@@ -2,9 +2,8 @@
 <html lang="en" >
 <head>
 <title>pulpfiction</title>
-<link rel = "icon" href =  
-"./images/pulplogo.jpg" 
-        type = "image/x-icon"> 
+
+<link rel = "icon" href = "./images/pulplogo.jpg" type = "image/x-icon"> 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -20,7 +19,6 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/text-animate.css">
 <link rel="stylesheet" media="all" onload="if(media!='all')media='all'" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-
 <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
@@ -29,25 +27,24 @@
 
 
 
-<div id="colorlib-page">
-
+<div id="pulp-page">
 
 <header id="header">
-<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" ><i></i></a>
-<aside id="colorlib-aside" role="complementary" class="js-fullheight">
+<a href="#" class="js-pulp-nav-toggle pulp-nav-toggle" ><i></i></a>
+<aside id="pulp-aside" role="complementary" class="js-fullheight">
 	
-	<h1 id="colorlib-logo" class="mb-4 mb-md-5"><img src="images/pulplogo.jpg" style="width:230px;" alt=""></h1>
+	<h1 id="pulp-logo" class="mb-4 mb-md-5"><img src="images/pulplogo.jpg" style="width:230px;" alt=""></h1>
 	
-	<nav id="colorlib-main-menu" role="navigation" class="nav-menu ">
+	<nav id="pulp-main-menu" role="navigation" class="nav-menu ">
 	<ul>
-	<li class="colorlib-active"><a href="#home">Home</a></li>
+	<li class="pulp-active"><a href="#home">Home</a></li>
 	<li><a href="#gallery">Gallery</a></li>
 	<li><a href="#about">About</a></li>
 	<li><a href="#merchandise">Merchandise</a></li>
 	<li><a href="#contactus">Contact</a></li>
 	</ul>
 	</nav>
-	<div class="colorlib-footer">
+	<div class="pulp-footer">
 	<div class="mb-4">
 	
 	
@@ -72,7 +69,7 @@
 
 </header>
 
-<div id="colorlib-main">
+<div id="pulp-main">
 
 
 
@@ -498,8 +495,8 @@ transform: translate(-50%, -50%);" id="output">
         }, 800, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu, .mobile-nav').length) {
-          $('.nav-menu .active, .mobile-nav .active').removeClass('colorlib-active');
-          $(this).closest('li').addClass('colorlib-active');
+          $('.nav-menu .active, .mobile-nav .active').removeClass('pulp-active');
+          $(this).closest('li').addClass('pulp-active');
         }
 
         if ($('body').hasClass('mobile-nav-active')) {
@@ -527,12 +524,12 @@ transform: translate(-50%, -50%);" id="output">
 
       if (cur_pos >= top && cur_pos <= bottom) {
         if (cur_pos <= bottom) {
-          main_nav.find('li').removeClass('colorlib-active');
+          main_nav.find('li').removeClass('pulp-active');
         }
-        main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('colorlib-active');
+        main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('pulp-active');
       }
       if (cur_pos < 300) {
-        $(".nav-menu ul:first li:first").addClass('colorlib-active');
+        $(".nav-menu ul:first li:first").addClass('pulp-active');
       }
     });
   });
@@ -550,17 +547,7 @@ $(document).ready(function(){AOS.init();$('[data-bs-hover-animate]').mouseenter(
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 
 <script>
-	// $(window).ready( function() {
-	// 	if($(window).height() > 400) {
-	// 		$('#homecontainer').addClass('js-fullheight');
-	// 		$('#homecontainer').removeClass('limit400');
-	// 	}else{
-	// 		$('#homecontainer').addClass('limit400');
-	// 		$('#homecontainer').removeClass('js-fullheight');
-	// 	}
-	// })
 
-	// $(window).on('resize',function () { 
         if($(window).height() > 650) { 
 			$("#homecontainer").css({height:$(window).height()})
            
